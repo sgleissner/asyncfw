@@ -2,7 +2,6 @@
 *.slo
 *.lo
 *.o
-*.obj
 
 # Precompiled Headers
 *.gch
@@ -10,11 +9,6 @@
 
 # Compiled Dynamic libraries
 *.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
 
 # Compiled Static libraries
 *.lai
@@ -23,6 +17,34 @@
 *.lib
 
 # Executables
-*.exe
 *.out
-*.app
+
+# backup files
+*~
+
+# elipse-relevated files
+.cproject
+.project
+.settings/
+
+# autoconf-generated files        
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache/
+config.h
+config.h.in
+config.log
+config.status
+configure
+depcomp
+install-sh
+missing
+stamp-h1
+.deps/
+.dirstamp
+
+# project-related files
+src/asyncfw/generated_config.h
+test_asyncfw
+
